@@ -1,0 +1,30 @@
+{
+  "name": "wordpress-kit",
+  "version": "1.0.0",
+  "description": "A wordpress angular kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Maria Saavedra",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "^1.6.3",
+    "angular-ui-bootstrap": "^2.5.0",
+    "angular-ui-router": "^0.4.2",
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "jquery": "^3.2.1",
+    "jshint": "^2.9.4",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "node-sass": "^4.5.1",
+    "npm-run-all": "^4.0.2",
+    "open": "0.0.5"
+  }
+}
