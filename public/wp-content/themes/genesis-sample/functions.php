@@ -54,10 +54,8 @@ function genesis_sample_enqueue_scripts_styles() {
 
 	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
 	wp_enqueue_script( 'genesis-sample-responsive-menu', get_stylesheet_directory_uri() . "/js/responsive-menus{$suffix}.js", array( 'jquery' ), CHILD_THEME_VERSION, true );
-	wp_enqueue_script( 'angular', get_stylesheet_directory_uri() . "/vendor/angular/angular.js" );
 	wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri() . "/vendor/bootstrap/dist/js/bootstrap.js" );
 	wp_enqueue_script( 'angular-bootstrap', get_stylesheet_directory_uri() . "/vendor/angular-ui-bootstrap/dist/ui-bootstrap.js" );
-	wp_enqueue_script( 'app', get_stylesheet_directory_uri() . "/app/app.js" );
 	wp_localize_script(
 		'genesis-sample-responsive-menu',
 		'genesis_responsive_menu',

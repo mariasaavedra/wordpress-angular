@@ -56,7 +56,7 @@ function genesis_xhtml_doctype() {
 function genesis_html5_doctype() {
 
 	?><!DOCTYPE html>
-<html <?php language_attributes( 'html' ); ?> ng-app="app">
+<html <?php language_attributes( 'html' ); ?>>
 <head <?php echo genesis_attr( 'head' ); ?>>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <?php
